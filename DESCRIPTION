@@ -1,0 +1,19 @@
+Package: iEN
+Title: immunological Elastic-Net model, implementation and optimization
+Version: 0.99.0
+Date: 2019-010-25
+Author: Anthony Culos <tculos@stanford.edu>, Nima Aghaeepour <naghaeep@gmail.com>
+Maintainer: Anthony Culos <tculos@stanford.edu>
+Imports: pROC, Metrics, Matrix, glmnet, knitr, methods, stats, parallel
+Suggests: RUnit, BiocGenerics
+Description: Implements the immunological Elastic-Net model and provides scripts for their performance estimation and optimization via K-fold cross-validation.
+biocViews: Regression, FlowCytometry, CellBiology
+Depends: R (>= 3.5.2)
+License: Artistic-2.0
+Encoding: UTF-8
+RoxygenNote: 6.1.1
+Collate: 
+    'cv_iEN.R'
+    'iEN.R'
+    'predict_iEN.R'
+    'print_iEN.R'
