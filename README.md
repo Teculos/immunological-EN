@@ -1,6 +1,6 @@
 # immunological-EN
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3885868.svg)](https://doi.org/10.5281/zenodo.3885868)
-[![license](https://github.com/Teculos/immunological-EN/blob/master/LICENSE)](https://github.com/DAVFoundation/captain-n3m0/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square](https://github.com/Teculos/immunological-EN/blob/master/LICENSE)
 
 
 # Package Information and Contact
