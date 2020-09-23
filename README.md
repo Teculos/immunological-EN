@@ -17,7 +17,7 @@ Installation of the 'immunological-EN' can be accomplished easiest through the t
 ## Installation From Source Files
 1. Download the entire repository
 1. In the terminal navigate to the previously mentioned folder location and run the following command
-```R CMD Build iEN```
-Adapt this commond to accomadate whichever folder name was used
+```R CMD Build immunological-EN-master```
+If different, adapt this commond to accomadate whichever folder name was used
 1. Next install the `.tar.gz` file which was built
 ```R CMD INSTALL iEN_0.99.0.tar.gz```
