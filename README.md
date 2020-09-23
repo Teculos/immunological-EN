@@ -28,3 +28,21 @@ See `DESCRIPTION` file for a full list of imported and suggested packages.
 If different, adapt this commond to accomadate whichever folder name was used
 1. Next install the `.tar.gz` file which was built
 ```R CMD INSTALL iEN_0.99.0.tar.gz```
+
+## Documentation
+For full documentation see ```iEN-Manual.pdf```, here we will summarize the main function of the package wich optimizes an iEN model via cross-validated grid search while also producing out-of-sample predictions on held out folds.
+
+```cv_iEN``` optimizes an iEN model via K-fold cross validation gridsearch and returns out-of-sample predictions and the associated model meta data. it does so with the following parameters
+
+1. X - Input matrix
+1. Y - Response variable
+1. foldid - vector indicating fold membership for each observation, used during K-fold cross validation
+1. alphaGrid - vector of alpha values
+1. nlambda - number of lambda values to generate for each cross validation fold 
+1. lambdas - vector of lambdas when specific values wish to be tested (recommended that this is set to NULL)
+1. priors - vector of continuous values indicating features that are consistent with canonical prior knowledge
+1. ncores - number of cores used during the model building process
+1. eval - evaluation methods used to optimize models (we suggest "RMSE" for continuous response variables, and "ROCAUC" for classification) 
+1. intercept - indacator for inclusion of the intercept for the regression model
+1. standardize - indicator for standardization of X prior to model fitting
+1. center - indicator for centering during standardizing of X
