@@ -25,7 +25,7 @@ See `DESCRIPTION` file for a full list of imported and suggested packages.
 1. Download the entire repository and remove ```iEN_0.99.0.tar.gz``` file
 1. In the terminal navigate to the previously mentioned folder location and run the following command
 ```R CMD Build immunological-EN-master```
-If different, adapt this commond to accomadate whichever folder name was used
+If different, adapt this command to accommodate whichever folder name was used
 1. Next install the `.tar.gz` file which was built
 ```R CMD INSTALL iEN_0.99.0.tar.gz```
 
@@ -43,6 +43,6 @@ For full documentation see ```iEN-Manual.pdf```, here we will summarize the main
 1. priors - vector of continuous values indicating features that are consistent with canonical prior knowledge
 1. ncores - number of cores used during the model building process
 1. eval - evaluation methods used to optimize models (we suggest "RMSE" for continuous response variables, and "ROCAUC" for classification) 
-1. intercept - indacator for inclusion of the intercept for the regression model
+1. intercept - indicator for inclusion of the intercept for the regression model
 1. standardize - indicator for standardization of X prior to model fitting
 1. center - indicator for centering during standardizing of X
