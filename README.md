@@ -15,7 +15,7 @@ We introduce the immunological Elastic Net (iEN) which integrates mechanistic im
 Installation of the 'immunological-EN' can be accomplished easiest through the terminal. All libraries dependent for the optimization and fitting of iEN models must be installed prior to building and installing of the package from the source files, See `DESCRIPTION` file for a full list.
 
 ## Installation From Source Files
-1. Download the entire repository into a folder, we suggest naming this folder `iEN` or `immunological-EN` for clarity
+1. Download the entire repository
 1. In the terminal navigate to the previously mentioned folder location and run the following command
 ```R CMD Build iEN```
 Adapt this commond to accomadate whichever folder name was used
